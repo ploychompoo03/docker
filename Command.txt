@@ -1,0 +1,14 @@
+docker ps    
+docker ps --all
+docker run busybox ping google.com
+docker system prune (คำสั่งอันตราย)
+docker run nginx
+docker exec -it 0a93ef854370 bash
+docker run -p 80:80 nginx
+docker run -p 9000:80 nginx
+http://localhost:9000/
+ docker run --name mynginx -d -p  3000:80 nginx
+docker logs 2cc1dead47310994fcb0b3a332e15044854d6a6ae47ffa3acacea8175655b5af   
+ docker logs -f 2cc1dead47310994fcb0b3a332e15044854d6a6ae47ffa3acacea8175655b5af
+ docker system info
+ docker image inspect nginx
